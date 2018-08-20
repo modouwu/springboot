@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consul" />
+        <module name="demo" />
+        <module name="hessianclient" />
+        <module name="hessianserver" />
+        <module name="shiro" />
+        <module name="spring-boot-shiro" />
+        <module name="springboot-mabatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consul" target="1.7" />
+      <module name="demo" target="1.8" />
+      <module name="hessianclient" target="1.8" />
+      <module name="hessianserver" target="1.8" />
+      <module name="shiro" target="1.7" />
+      <module name="spring-boot-shiro" target="1.8" />
+      <module name="springboot-mabatis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

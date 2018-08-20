@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbc57eb5-0582-4bf5-8b41-5a33aa5766e1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/algorithm/ThreadPool/MyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/ActiveMqUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/ApproveConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/BussinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/GlobalExceptionHandlerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ResultDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/jwtToken/JwtMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/jwtToken/JwtToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/myValidate/LoginUserInfoMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/myValidate/MyLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/paramAnnotation/MyLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/paramAnnotation/VerifyAnnotationMyLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/validateAnnotation/GirlFormIdValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/validateAnnotation/GirlFormValidatorClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/dto/BaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/objectMapper/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/objectMapper/mainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/objectMapper/myObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/MyConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/consumerProducer/MyConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/MyConsumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/consumerProducer/MyConsumer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/MyProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/consumerProducer/MyProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/MyProducer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/consumerProducer/MyProducer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/interceptor/MyWebAppConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/interceptor/MyWebAppConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/JsonRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/aspect/JsonRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/MyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/aspect/MyLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/myAnnotation/aspect/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/redis/RedisCacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/redis/RedisCacheConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/service/ResuleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/service/ResuleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/service/UserServiceIpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/service/UserServiceIpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/TestUser.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/springboot-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-hessian-demo/HessianClient/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-hessian-demo/HessianServer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-haberate/target/" />
+    <ignored path="$PROJECT_DIR$/shiro/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-shiro/target/" />
+    <ignored path="$PROJECT_DIR$/consul/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HiberateController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/querydsl/HiberateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mylog.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-haberate/mylog.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="236" column="2248" selection-start-line="236" selection-start-column="2248" selection-end-line="236" selection-end-column="2248" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AopService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/aop/AopService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/algorithm/ThreadPool/MyTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestMethod.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkNoInterest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/entity/LinkNoInterest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringbootHiberateApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/SpringbootHiberateApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Swagger2Conf.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/Swagger2/Swagger2Conf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/querydsl/UserDao2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>shiro-ehcache</find>
+      <find>autoconfigure</find>
+      <find>spring-boot-autoconfigure</find>
+      <find>SecurityManager</find>
+      <find>subject</find>
+      <find>SimpleAuthorizationInfo</find>
+      <find>token</find>
+      <find>myb</find>
+      <find>HikariConfig</find>
+      <find>MyBatis</find>
+      <find>AuthorizationInfo</find>
+      <find>map</find>
+      <find>RequiresPermissions</find>
+      <find>AuthorizingRealm</find>
+      <find>MyShiroRealm</find>
+      <find>Jwt</find>
+      <find>jersey-client</find>
+      <find>OkHttpClientHttpRequestFactory</find>
+      <find>redisTest</find>
+      <find>TestUser</find>
+      <find>OneToOneTest</find>
+      <find>redis</find>
+      <find>RedisTemplate</find>
+      <find>tb_student</find>
+      <find>wiselySettings</find>
+      <find>restT</find>
+      <find>okhttp</find>
+      <find>RedisAutoConfiguration</find>
+      <find>RestTemplate</find>
+      <find>Slf4j</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springboot-mybatis" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/chouti-dig" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spring-security-javaconfig" value="PREVIEW" />
+        <entry key="$USER_HOME$/git/spring-security/spring-security" value="PREVIEW" />
+        <entry key="$USER_HOME$/project-2018/chouti-dig-master/chouti-dig" value="PREVIEW" />
+        <entry key="$USER_HOME$/project-2018/chouti-dig/chouti-dig" value="PREVIEW" />
+        <entry key="$USER_HOME$/project-2018/qiniuSDK" value="PREVIEW" />
+        <entry key="$USER_HOME$/project-2018/workspace/chouti-dig" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot-hessian-demo/HessianClient/src/main/java/com/example/HessianClientApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-hessian-demo/HessianServer/src/main/java/com/example/HessianServerApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/ApproveApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/consumerProducer/MyProducer2.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/ApproveConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/activeMq/ActiveMqUtil.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/hessian/hessianConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/algorithm/ThreadPool/MyTask.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/model/User.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/NoPermissionException.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/NoPermissionExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/HERController.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ApplicationHandlerExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/BussinessException.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ResultVO.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ResultDto.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/WebConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ExceptionController.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/GlobalExceptionHandlerService.java" />
+        <option value="$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/springbootmabatis/querydsl/queryDSLConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-haberate/src/main/java/SpringbootMabatisApplication.java" />
+        <option value="$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/ShiroApplication.java" />
+        <option value="$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/ShiroConfiguration.java" />
+        <option value="$PROJECT_DIR$/shiro/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/LoginController.java" />
+        <option value="$PROJECT_DIR$/consul/pom.xml" />
+        <option value="$PROJECT_DIR$/consul/src/main/java/com/example/consul/ConsulService.java" />
+        <option value="$PROJECT_DIR$/consul/src/main/java/com/example/consul/ConsulController.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/restTemplateTest.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/redis/RedisCacheConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/service/ResuleService.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/TestUser.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/restTemplate.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateController.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateConf.java" />
+        <option value="$PROJECT_DIR$/springboot-haberate/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/converter/PlatformConverter.java" />
+        <option value="$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/entity/LinkNoInterest.java" />
+        <option value="$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/controller.java" />
+        <option value="$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/SpringbootHiberateApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/Swagger2/Swagger2Conf.java" />
+        <option value="$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/querydsl/HiberateController.java" />
+        <option value="$PROJECT_DIR$/springboot-haberate/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="consul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="consul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-hibernate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-hibernate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="96" />
+    <option name="y" value="-4" />
+    <option name="width" value="1846" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hiberate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hiberate" type="462c0819:PsiDirectoryNode" />
+              <item name="openSessionInView" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hiberate" type="462c0819:PsiDirectoryNode" />
+              <item name="openSessionInView" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hiberate" type="462c0819:PsiDirectoryNode" />
+              <item name="openSessionInView" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hiberate" type="462c0819:PsiDirectoryNode" />
+              <item name="openSessionInView" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hiberate" type="462c0819:PsiDirectoryNode" />
+              <item name="openSessionInView" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hiberate" type="462c0819:PsiDirectoryNode" />
+              <item name="querydsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hiberate" type="462c0819:PsiDirectoryNode" />
+              <item name="Swagger2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-haberate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Multithread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadPool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restTemplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.4.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.4.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/shiro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-examples" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootHiberateApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="JwtMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.jwtToken.JwtMain" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.jwtToken.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.algorithm.ThreadPool.MyTask" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.algorithm.ThreadPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="restTemplateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.restTemplate.restTemplateTest" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.restTemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DemoApplicationTests.OneToOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="OneToOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestUser.pipelined" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.TestUser" />
+      <option name="METHOD_NAME" value="pipelined" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consul.ConsulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.DemoApplication" />
+    </configuration>
+    <configuration name="HessianClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hessianclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.HessianClientApplication" />
+    </configuration>
+    <configuration name="HessianServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hessianserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.HessianServerApplication" />
+    </configuration>
+    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shiro.ShiroApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="SpringBootShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.neo.SpringBootShiroApplication" />
+    </configuration>
+    <configuration name="SpringbootHiberateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mabatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hiberate.SpringbootHiberateApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConsulApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.SpringbootHiberateApplication" />
+      <item itemvalue="Spring Boot.ShiroApplication" />
+      <item itemvalue="Spring Boot.HessianClientApplication" />
+      <item itemvalue="Spring Boot.HessianServerApplication" />
+      <item itemvalue="Spring Boot.SpringBootShiroApplication" />
+      <item itemvalue="Application.MyTask" />
+      <item itemvalue="Application.JwtMain" />
+      <item itemvalue="Application.restTemplateTest" />
+      <item itemvalue="JUnit.DemoApplicationTests.OneToOneTest" />
+      <item itemvalue="JUnit.TestUser.pipelined" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestUser.pipelined" />
+        <item itemvalue="JUnit.DemoApplicationTests.OneToOneTest" />
+        <item itemvalue="Application.restTemplateTest" />
+        <item itemvalue="Application.JwtMain" />
+        <item itemvalue="Application.MyTask" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbc57eb5-0582-4bf5-8b41-5a33aa5766e1" name="Default" comment="" />
+      <created>1533717301675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533717301675</updated>
+      <workItem from="1533717303438" duration="4217000" />
+      <workItem from="1533783522770" duration="17256000" />
+      <workItem from="1534148382266" duration="363000" />
+      <workItem from="1534148980544" duration="446000" />
+      <workItem from="1534149648412" duration="1293000" />
+      <workItem from="1534151487645" duration="297000" />
+      <workItem from="1534386156948" duration="17206000" />
+      <workItem from="1534731854994" duration="3401000" />
+      <workItem from="1534737784070" duration="1656000" />
+      <workItem from="1534741148711" duration="3818000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DemoApplicationTests_OneToOneTest - 2018.08.20 at 11h 15m 44s.xml">
+      <configuration name="DemoApplicationTests.OneToOneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_pipelined - 2018.08.20 at 11h 26m 42s.xml">
+      <configuration name="TestUser.pipelined" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49953000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4997242" weight="0.3294979" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002758" side_tool="true" weight="0.39958158" />
+      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.15333702" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3451883" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3294979" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19856592" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32984003" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
+      <window_info anchor="right" id="SciView" order="7" weight="0.32984003" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.2498621" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997242" weight="0.39958158" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ExceptionResolver.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ExceptionController.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/ExceptionController.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/GlobalExceptionHandlerService.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/handleExceptionResolver/GlobalExceptionHandlerService.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/MyShiroRealm.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/MyShiroRealm.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/LoginController.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/LoginController.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/LoginController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/LoginController.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/LoginController.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/MyShiroRealm.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro/src/main/java/com/example/shiro/MyShiroRealm.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/config/MyShiroRealm.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/neo/config/MyShiroRealm.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/jwtToken/JwtMain.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/consul/src/main/java/com/example/consul/ConsulService.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/consul/src/main/java/com/example/consul/ConsulService.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/orbitz/consul/consul-client/0.10.0/consul-client-0.10.0.jar!/com/orbitz/consul/Consul.class</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar!/javax/ws/rs/client/ClientBuilder.class</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/DemoApplicationTests.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/service/ResuleService.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/DemoApplicationTests.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/DemoApplicationTests.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/TestUser.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/TestUser.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateController.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="53" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>restTemplate.getForObject(&quot;http://localhost:8083/gg&quot;,String.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pipeline1.getResults()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Consul.builder().build()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>verifier.verify(token)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>subject.getPrincipal().ge</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>subject.getPrincipal()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateController.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateConfig.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.4.RELEASE/spring-aop-5.0.4.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="661" selection-start-line="661" selection-end-line="661" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/sql/createTable.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="24" selection-start-line="24" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/ManyToManyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/redis/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/OneToManyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/mybatis/OneToOneMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/service/ResuleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/test/java/com/example/demo/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3249">
+          <caret line="171" column="20" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE-sources.jar!/org/springframework/boot/web/client/RestTemplateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.jar!/org/springframework/boot/ClearCachesApplicationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="91" selection-start-column="68" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.jar!/org/springframework/boot/diagnostics/LoggingFailureAnalysisReporter.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="54" column="67" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.jar!/org/springframework/boot/autoconfigure/MessageSourceAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1490">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.jar!/org/springframework/beans/ExtendedBeanInfoFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/web/client/RestTemplateAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="329" column="17" selection-start-line="329" selection-start-column="17" selection-end-line="329" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/demo/restTemplate/RestTemplateConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spi/2.0.1/springfox-spi-2.0.1.jar!/springfox/documentation/spi/DocumentationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.0.1/springfox-core-2.0.1.jar!/springfox/documentation/builders/PathSelectors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="87" column="21" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/HibernateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/dao/LinkNoInterestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/service/LinkNoInterestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/converter/BooleanToIntegerConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/converter/PlatformConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/querydsl/UserDao2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/entity/LinkNoInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/SpringbootHiberateApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/Swagger2/Swagger2Conf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/querydsl/HiberateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/java/com/example/hiberate/openSessionInView/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/mylog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="236" column="2248" selection-start-line="236" selection-start-column="2248" selection-end-line="236" selection-end-column="2248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-haberate/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/aop/AopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/example/algorithm/ThreadPool/MyTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

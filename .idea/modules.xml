@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consul/consul.iml" filepath="$PROJECT_DIR$/consul/consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/demo.iml" filepath="$PROJECT_DIR$/springboot-mybatis/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-hessian-demo/HessianClient/hessianclient.iml" filepath="$PROJECT_DIR$/spring-boot-hessian-demo/HessianClient/hessianclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-hessian-demo/HessianServer/hessianserver.iml" filepath="$PROJECT_DIR$/spring-boot-hessian-demo/HessianServer/hessianserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-shiro/spring-boot-shiro.iml" filepath="$PROJECT_DIR$/spring-boot-shiro/spring-boot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-demo.iml" filepath="$PROJECT_DIR$/.idea/springboot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-haberate/springboot-mabatis.iml" filepath="$PROJECT_DIR$/springboot-haberate/springboot-mabatis.iml" />
+    </modules>
+  </component>
+</project>

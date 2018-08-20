@@ -1,0 +1,11 @@
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/config/MyShiroRealm.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/entity/SysRole.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/config/ShiroConfig.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/dao/UserInfoDao.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/sevice/impl/UserInfoServiceImpl.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/sevice/UserInfoService.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/web/HomeController.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/web/UserInfoController.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/entity/UserInfo.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/entity/SysPermission.java
+/home/yeyunlong/IdeaProjects2/boot/spring-boot-examples/spring-boot-shiro/src/main/java/com/neo/SpringBootShiroApplication.java
