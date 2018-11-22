@@ -18,7 +18,7 @@ import com.orbitz.consul.model.health.ServiceHealth;
 public class ConsulService {
 
     /**
-     * 注册服务
+        * 注册服务
      * 并对服务进行健康检查
      * servicename唯一
      * serviceId:没发现有什么作用

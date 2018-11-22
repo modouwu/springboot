@@ -9,9 +9,13 @@
         <module name="consul" />
         <module name="demo" />
         <module name="hessianclient" />
+        <module name="hessianclient (1)" />
         <module name="hessianserver" />
+        <module name="hessianserver (1)" />
         <module name="shiro" />
+        <module name="spring-boot-service" />
         <module name="spring-boot-shiro" />
+        <module name="spring-cloud-consul-sample" />
         <module name="springboot-mabatis" />
       </profile>
     </annotationProcessing>
@@ -19,9 +23,13 @@
       <module name="consul" target="1.7" />
       <module name="demo" target="1.8" />
       <module name="hessianclient" target="1.8" />
+      <module name="hessianclient (1)" target="1.8" />
       <module name="hessianserver" target="1.8" />
+      <module name="hessianserver (1)" target="1.8" />
       <module name="shiro" target="1.7" />
+      <module name="spring-boot-service" target="1.8" />
       <module name="spring-boot-shiro" target="1.8" />
+      <module name="spring-cloud-consul-sample" target="1.5" />
       <module name="springboot-mabatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>

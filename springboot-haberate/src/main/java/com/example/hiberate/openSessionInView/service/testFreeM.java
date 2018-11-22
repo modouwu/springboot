@@ -1,6 +1,5 @@
 package com.example.hiberate.openSessionInView.service;
 
-import com.example.hiberate.openSessionInView.entity.User2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

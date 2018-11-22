@@ -5,9 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/consul/consul.iml" filepath="$PROJECT_DIR$/consul/consul.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/demo.iml" filepath="$PROJECT_DIR$/springboot-mybatis/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-hessian-demo/HessianClient/hessianclient.iml" filepath="$PROJECT_DIR$/spring-boot-hessian-demo/HessianClient/hessianclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-grpc-demo/GrpcClient/hessianclient (1).iml" filepath="$PROJECT_DIR$/spring-boot-grpc-demo/GrpcClient/hessianclient (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-hessian-demo/HessianServer/hessianserver.iml" filepath="$PROJECT_DIR$/spring-boot-hessian-demo/HessianServer/hessianserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-grpc-demo/GrpcServer/hessianserver (1).iml" filepath="$PROJECT_DIR$/spring-boot-grpc-demo/GrpcServer/hessianserver (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul-sample/spring-boot-service/spring-boot-service.iml" filepath="$PROJECT_DIR$/spring-cloud-consul-sample/spring-boot-service/spring-boot-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-shiro/spring-boot-shiro.iml" filepath="$PROJECT_DIR$/spring-boot-shiro/spring-boot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul-sample/spring-cloud-consul-sample.iml" filepath="$PROJECT_DIR$/spring-cloud-consul-sample/spring-cloud-consul-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-demo.iml" filepath="$PROJECT_DIR$/.idea/springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-haberate/springboot-mabatis.iml" filepath="$PROJECT_DIR$/springboot-haberate/springboot-mabatis.iml" />
     </modules>

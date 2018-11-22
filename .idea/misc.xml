@@ -13,6 +13,10 @@
         <option value="$PROJECT_DIR$/shiro/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-shiro/pom.xml" />
         <option value="$PROJECT_DIR$/consul/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-grpc-demo/GrpcServer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-grpc-demo/GrpcClient/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul-sample/spring-boot-service/pom.xml" />
       </list>
     </option>
   </component>
