@@ -53,6 +53,7 @@ public class LinkNoInterestDao {
         /*LinkNoInterest model5=entityManagerFactory.unwrap(SessionFactory.class).getCurrentSession().find(LinkNoInterest.class,id);
         System.out.println(model5.toString());//这里 getCurrentSession会报错,加上Transactional还是报错no transaction is in progress*/
         //哈哈哈
+        //哈哈2
         return model;
     }
 }
