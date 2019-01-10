@@ -30,4 +30,10 @@ public class controller {
     public User getUser(){
         return userService.getUser("admin");
     }
+
+    @RequestMapping("/")
+    @ResponseBody
+    public String index(){
+        return "this is from 8083";
+    }
 }

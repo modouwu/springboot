@@ -43,10 +43,11 @@ public class LinkNoInterestDao {
     public LinkNoInterest getModel(Long id){
         LinkNoInterest model=entityManagerFactory.createEntityManager().find(LinkNoInterest.class,id);
         System.out.println(model.toString());
-        LinkNoInterest model2=entityManager.find(LinkNoInterest.class,id);
+        LinkNoInterest model2=entityManager.find(LinkNoInterest.class,id);//jpa方式
         System.out.println(model2.toString());
         LinkNoInterest model3=entityManager.unwrap(Session.class).find(LinkNoInterest.class,id);
         System.out.println(model3.toString());
+        //hibernate方式　　　　　　　　　　　　　　　　　　　　　
         LinkNoInterest model4=entityManagerFactory.unwrap(SessionFactory.class).openSession().find(LinkNoInterest.class,id);
         System.out.println(model4.toString());//这里 getCurrentSession会报错,openSession不报错
         /*LinkNoInterest model5=entityManagerFactory.unwrap(SessionFactory.class).getCurrentSession().find(LinkNoInterest.class,id);

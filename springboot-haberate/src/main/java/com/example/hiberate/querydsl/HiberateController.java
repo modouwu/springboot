@@ -22,4 +22,11 @@ public class HiberateController {
     public User get(){
         return userDao.getUser();
     }
+
+    @RequestMapping(value = "/queryDSL/update")
+    @ResponseBody
+    public String update(){
+        userDao.updateUser();
+        return "更新成功";
+    }
 }
